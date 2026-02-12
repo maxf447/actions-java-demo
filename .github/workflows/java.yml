@@ -1,5 +1,5 @@
 name: Run Java program
-
+runs-on: ubuntu-latest
 on:
   push:
     branches:
