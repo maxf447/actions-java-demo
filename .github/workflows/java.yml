@@ -1,0 +1,15 @@
+name: Run Java program
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  run:
+    steps:
+      - name: Run program
+      - run: java Hello.java
