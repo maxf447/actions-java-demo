@@ -12,4 +12,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run program
-      - run: java Hello.java
+        run: java Hello.java
