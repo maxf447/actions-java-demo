@@ -1,5 +1,4 @@
 name: Run Java program
-runs-on: ubuntu-latest
 on:
   push:
     branches:
@@ -10,6 +9,7 @@ on:
 
 jobs:
   run:
+    runs-on: ubuntu-latest
     steps:
       - name: Run program
       - run: java Hello.java
